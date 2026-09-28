@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LearnML">
+  <rect width="64" height="64" rx="14" fill="#0A1018"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#243545" stroke-width="2"/>
+  <!-- decision boundary -->
+  <path d="M10 50 L54 14" stroke="#F0B429" stroke-width="5" stroke-linecap="round"/>
+  <!-- class A -->
+  <circle cx="18" cy="20" r="5.5" fill="#5B8DEF"/>
+  <circle cx="28" cy="15" r="4" fill="#5B8DEF" opacity="0.85"/>
+  <circle cx="21" cy="30" r="3.5" fill="#5B8DEF" opacity="0.75"/>
+  <!-- class B -->
+  <circle cx="46" cy="44" r="5.5" fill="#2A9D8F"/>
+  <circle cx="37" cy="49" r="4" fill="#2A9D8F" opacity="0.85"/>
+  <circle cx="52" cy="35" r="3.5" fill="#2A9D8F" opacity="0.75"/>
+  <!-- fit accent -->
+  <circle cx="32" cy="32" r="2.5" fill="#F0B429"/>
+</svg>

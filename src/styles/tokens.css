@@ -1,0 +1,80 @@
+/**
+ * Design tokens — laboratory instrument face + cool editorial notebook.
+ * See DESIGN.md. Do not introduce warm cream or SaaS card chrome.
+ */
+
+:root {
+  --void: #0a1018;
+  --surface: #13202c;
+  --surface-2: #1a2c3a;
+  --paper: #e6e9e4;
+  --paper-2: #d5dad3;
+  --ink: #0f1518;
+  --chalk: #c5ced6;
+  --chalk-dim: #7d8b96;
+  --signal: #f0b429;
+  --signal-dim: #8a6a1c;
+  --alarm: #e23d51;
+  --calm: #2a9d8f;
+  --class0: #5b8def;
+  --class1: #f0b429;
+  --class2: #9b7ede;
+
+  --font-display: "Newsreader", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-ui: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Cascadia Code", "Consolas", monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --rail: 220px;
+  --chrome: 48px;
+  --dock: 148px;
+
+  --focus: 0 0 0 2px var(--void), 0 0 0 4px var(--signal);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--void);
+  color: var(--chalk);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  height: 100%;
+  min-height: 100%;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+code,
+.mono {
+  font-family: var(--font-mono);
+}
